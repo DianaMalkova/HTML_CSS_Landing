@@ -1,0 +1,342 @@
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,500,600,700');
+
+ul {
+    margin: 0 0;
+    padding: 0;
+}
+
+a {
+	color:#2f353f;
+	text-decoration:none;
+}
+
+h1, h2, h3 {
+	margin:0 0 20px;
+}
+
+p {
+	margin:0 0 15px;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:normal;
+	margin:0 0;
+	font-size:16px;
+	line-height: 26px;
+	color:#252525;
+}
+
+header {
+    background-color: #edf3fa;
+    padding: 21px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+header .container {
+	max-width:1800px;
+	margin:0 auto;
+	padding-left:80px;
+	padding-right:80px;
+}
+
+.container {
+	max-width:1200px;
+	margin:0 auto;
+}
+
+.logo {
+	float:left;
+}
+
+.topnav {
+	float:right;
+	text-align:center;
+}
+
+.topnav nav {
+	float: right;
+}
+
+#menu-icon {
+	display: none;
+	width: 40px;
+	height: 40px;
+	padding-right: 15px;
+}
+
+a:hover#menu-icon {
+	border-radius: 1px 1px 0 0;
+}
+
+.topnav ul {
+	list-style: none;
+}
+
+.topnav li {
+	display: inline-block;
+	float: left;
+}
+
+.topnav li a {
+	padding: 0 13px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1.5px;
+}
+
+.atu-template {
+	text-align:center;
+	padding:80px 0 50px 0
+}
+
+.atu-template h1 {
+	font-size: 50px;
+	font-weight: normal;
+	margin: 0px 0px 45px;
+	line-height: 50px;
+}
+
+.atu-template img {
+  margin-bottom: 35px;
+  max-width: 874px;
+  width: 100%;
+}
+
+button:focus, a:focus {
+	outline:none;
+}
+
+button {
+	padding: 15px 0;
+	width: 162px;
+	border: 0px;
+	border-radius: 3px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 12px;
+	margin: 0 7px;
+	cursor: pointer;
+	font-size:14px;
+}
+
+.live-demo, .download:hover {
+	background-color:#1aabdd;
+	color:#fff;
+}
+
+.download, .live-demo:hover {
+	background-color:#e64e4e;
+	color:#fff;
+}
+
+.atu-template-des h2 {
+	font-size:30px;
+	font-weight:normal;
+	margin:0px 0px 30px;
+	border-bottom: 1px solid #ddd;
+	background-position:left bottom;
+	padding-bottom:30px;
+}
+
+.atu-template-des .decoration {
+	margin-top: -33px;
+	padding-bottom: 30px;
+	border-top: 3px solid #1aabdd;
+	width: 80px;
+}
+
+.grid-2col {
+	width:45%;
+}
+
+.left-one {
+	float:left;
+	padding-right:2%;
+}
+
+.right-one {
+	float:right;
+	padding-left:2%;
+}
+
+p {
+	color:#7c7c7c;
+}
+
+strong {
+	color:#2f353f;
+}
+
+li {
+	list-style:none;
+	color:#7c7c7c;
+}
+
+li.version {
+	background:url(./images/version.png)no-repeat;
+	padding-left:22px;
+	background-position: 0;
+	margin-bottom:5px;
+}
+
+li.downloads {
+	background:url(./images/downloads.png)no-repeat;
+	padding-left:22px;
+	background-position: 0;
+	margin-bottom:5px;
+}
+
+li.category {
+	background:url(./images/category.png)no-repeat;
+	padding-left:22px;
+	background-position: 0;
+	margin-bottom:30px
+}
+
+.atu-template-des {
+    width: 100%;
+    display: inline-block;
+    padding: 30px 0 0;
+}
+
+.atu-template-des h3 {
+	font-size:30px;
+	font-weight:normal;
+	margin:0px 0px 20px;
+	line-height: 32px;
+}
+
+.releated-items {
+    width: 100%;
+    display: inline-block;
+    padding: 30px 0;
+}
+
+.releated-items h2 {
+	font-size:30px;
+	font-weight:normal;
+	margin:0px 0px 50px;
+	background-position:left bottom;
+	border-bottom: 1px solid #ddd;
+	padding-bottom:30px;
+}
+
+.releated-items .decoration {
+	margin-top: -53px;
+	padding-bottom: 30px;
+	border-top: 3px solid #1aabdd;
+	width: 80px;
+}
+
+.releated-items h3 {
+	font-size:26px;
+	font-weight:normal;
+	margin:0px 0px 20px;
+}
+
+.grid-2col img {
+    margin-left: -20px;
+}
+
+.grid-3col {
+    float: left;
+    width: 31.33%;
+    padding-right: 2%;
+}
+
+.grid-3col:last-child {
+    padding-right: 0%;
+}
+
+.grid-3col img {
+    margin-bottom: 20px;
+	width: 100%;
+}
+
+.grid-3col:nth-child(3) img {
+    box-shadow: 0 20px 40px #e4e5e6;
+}
+
+footer {
+	width:100%;
+	background:#2f353e;
+	height:540px;
+}
+
+@media only screen and (max-width: 1200px) {
+	.grid-2col img {
+		max-width: 595px;
+		width: 100%;
+	}
+	.container {
+		padding: 0 15px;
+	}
+}
+
+@media only screen and (max-width: 1100px) {
+	.grid-2col {
+		padding-top: 0px!important;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.grid-2col.left-one, .grid-2col.right-one {
+		width: 100%;
+		padding: 0;
+	}
+
+	.grid-2col.left-one {
+		margin-bottom:40px;
+	}
+
+	.grid-3col {
+		width: 100%;
+		padding-right: 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+  .logo {
+    margin-left: 20px;
+	}
+  
+	header .container {
+	  padding-left: 0px;
+	  padding-right: 0px;
+	}
+  
+  #menu-icon {
+		display:inline-block;
+	}
+
+	.topnav nav ul { 
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #fff;
+		border: 1px solid #ddd;
+		right: 5%;
+		top: 60px;
+		width: 50%;
+		border-radius: 4px;
+	}
+
+	.topnav nav li {
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+	}
+
+	.topnav nav li a {
+		display: block !important; 
+	}
+
+	.topnav nav:hover ul {
+		display: block;
+	}
+}
